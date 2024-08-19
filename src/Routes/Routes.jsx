@@ -25,7 +25,7 @@ import NotFound from "../Pages/ErrorPage/NotFound";
       element: <Dashboard></Dashboard>,
       children:[
         {
-            path: 'images',
+            path: '/dashboard/images',
             element: <Images></Images>
         }
       ]
