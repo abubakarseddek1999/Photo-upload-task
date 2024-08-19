@@ -12,11 +12,10 @@ const Navbar = () => {
 
             {/* left side logo */}
             <div className="flex items-center">
-            {/* <img className="w-[70px] h-[70px]  rounded-full mr-2" src={logo} alt="" />  */}
+            <img className="w-[70px] h-[70px]  rounded-full mr-2" src="https://i.ibb.co/Fwb67wV/hjfhgfl.png" alt="" /> 
               <div className="text-black text-lg font-bold "> WEB-LOGO</div>
             </div>
-
-
+            
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
