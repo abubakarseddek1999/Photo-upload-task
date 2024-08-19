@@ -19,11 +19,11 @@ import Images from "../Pages/Dashboard/Images/Images";
       ]
     },
     {
-      path: "/",
+      path: "dashboard",
       element: <Dashboard></Dashboard>,
       children:[
         {
-            path: '/dashboard',
+            path: 'images',
             element: <Images></Images>
         }
       ]
