@@ -5,12 +5,14 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import Dashboard from "../Layout/Dashboard";
 import Images from "../Pages/Dashboard/Images/Images";
+import NotFound from "../Pages/ErrorPage/NotFound";
 
 
   export const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement:<NotFound></NotFound>,
       children:[
         {
             path: '/',
